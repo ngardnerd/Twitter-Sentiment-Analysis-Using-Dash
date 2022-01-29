@@ -23,10 +23,10 @@ import base64
 translator = Translator()
 
 #keys and tokens
-consumer_api_key = 'ofdD68ByorSQLyZ1XQ1IVWBiq'
-consumer_api_secret = 'vCDSw47cTUdn6ehdZblQ9nd8LBM7zqsy77NcV1ycupTb4YK6Xa' 
-access_token = '884145552241381376-GRoC4l9pIE2dbGE7GY61EUOUuJcr6qg'
-access_token_secret ='4UulQ94Tow5Kom2XLofi3mgUeIMQ0JWNX5plXxaOeJa0l'
+consumer_api_key = ''
+consumer_api_secret = '' 
+access_token = ''
+access_token_secret =''
 
 authorizer = OAuthHandler(consumer_api_key, consumer_api_secret)
 authorizer.set_access_token(access_token, access_token_secret)
